@@ -1,0 +1,63 @@
+body {
+    background: #FEFBE7 !important
+}
+
+.title {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 110px;
+    text-align: center;
+}
+
+.letter-blue {
+    color: #1C98F2
+}
+
+.letter-red {
+    color: #FE0101
+}
+
+.explanation {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 20px;
+}
+
+.rangetitle {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 18px;
+}
+
+#rangeContainer {
+    padding: 16px 6px;
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#range {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

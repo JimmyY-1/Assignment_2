@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- METADATA GOES HERE -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-xs-12">
+
+                <h1 class="title">
+                    <span class="letter-blue">L</span>
+                    <span class="letter-blue">E</span>
+                    <span class="letter-blue">G</span>
+                    <span class="letter-red">R</span>
+                    <span class="letter-red">A</span>
+                </h1>
+
+            </div>
+
+            <div class="explanation col-lg-6 col-xs-12">
+
+                <p>Legra (Lego Brick Graphics) is a lightweight JavaScript library, just 3.36KB gzipped, that lets you
+                    draw LEGO like shapes on an <b>HTML canvas.</b> It includes simple drawing tools such as lines,
+                    rectangles,
+                    polygons, ellipses and Bézier curves, with each shape able to be drawn as an outline or filled in.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row mt-4 mb-2">
+
+            <div class="col-12">
+
+                <canvas width="1200" height="600"></canvas>
+
+            </div>
+
+        </div>
+
+        <div id="rangeContainer">
+
+            <input id="range" type="range" min="12" max="30" value="24">
+
+            <p class="rangetitle mt-3">
+                Change Slider to Change Brick Size
+            </p>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js" defer></script>
+
+</body>
+
+</html>
